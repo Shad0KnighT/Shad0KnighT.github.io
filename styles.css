@@ -2,4 +2,10 @@ body {
     background-color: darkgrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: smaller;
-}
+    }
+#bidy {
+    width: 80%;
+    background-color: lightskyblue;
+    margin-left: auto;
+    margin-right: auto;
+    }
