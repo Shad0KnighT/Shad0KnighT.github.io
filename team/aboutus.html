@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="navbar">
         <nav><a href="index.html">Home</a></nav>
-</div>
-<div class="navbar"></div>
+    </div>
+    <div class="navbar"></div>
     <nav><a href="studioc.html">Studio C</a></nav>
-</div>
-<div class="navbar">
-    <nav><a href="actors.html">Actors</a></nav>
-</div>
+    </div>
+    <div class="navbar">
+        <nav><a href="actors.html">Actors</a></nav>
+    </div>
+    <div class="navbar">
+        <nav><a href="aboutus.html"> About Us</a></nav>
+    </div>
+    <div class="navbar">
+        <nav><a href="team.html">Our Team</a></nav>
+    </div>
 
+    <h1>We are fans of the Studio C that used to be!<h1>
+            <div class="slidecontainer">
+                <h5>You like the old cast?</h5>
+                <input type="range" min="1" max="5" value="3" class="slider" id="OC">
+            </div>
+            <div class="slidecontainer">
+                <h5>You like the new cast?</h5>
+                <input type="range" min="1" max="5" value="3" class="slider" id="NC">
+            </div>
+                <button id="BAD BUTTON" onclick="showAlert()">I've never heard of "Studio C".</button>
 
+                    
+                    <script>
+                        function showAlert() {
+                            alert('WHAT ARE YOU DOING ON THIS WEBSITE?!? GO SIT ON YOUR COUCH AND WATCH THESE FUNNY SKETCHES!!!');
+                        }
+                        </script>
 
-
-
-    
-<h1>We are fans of the Studio C that used to be!<h1>
-    <div class="slidecontainer">
-        <h5>You like the old cast?</h5>
-        <input type="range" min="1" max="5" value="3" class="slider" id="OC">
-      </div>
-      <div class="slidecontainer">
-        <h5>You like the new cast?</h5>
-        <input type="range" min="1" max="5" value="3" class="slider" id="NC">
-      </div>
-        <button type="input" id="evilButtonNeverClickIt" onclick="myFunction()" >
-        <h5>I've never heard of "Studio C".<h5>
-        
-        
 </body>
-</html>
 
+</html>
